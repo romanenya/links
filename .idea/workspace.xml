@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6900587-97e5-43a8-8977-d23147ccad94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mainpage/templates/mainpage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainpage/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainpage/templates/mainpage/sign_in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/links/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/links/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/links/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/links/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainpage/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainpage/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainpage/templates/mainpage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainpage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainpage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainpage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainpage/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -45,6 +50,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -78,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642259011375</updated>
-      <workItem from="1642259013218" duration="5030000" />
+      <workItem from="1642259013218" duration="7482000" />
+      <workItem from="1642350014436" duration="2915000" />
     </task>
     <servers />
   </component>
