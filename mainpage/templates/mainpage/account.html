@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добро пожаловать, {{ username }}!</title>
+</head>
+<body>
+    <h1>Добро пожаловать, {{ username }}!</h1> <a href="/logout">Выйти</a>
+    <p><a href="/create_link">Создать новую ссылку</a></p>
+    {% if links %}
+        <h2>Ваши ссылки:</h2>
+    {% else %}
+        <h2>У вас пока нет ссылок</h2>
+    {% endif %}
+    {% for el in links %}
+        <p><a href="{{ el.link1 }}">{{ el.link1 }}</a> - <a href="/{{ el.link2 }}">{{ absolute_url }}/{{ el.link2 }}</a></p>
+    {% endfor %}
+</body>
+</html>

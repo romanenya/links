@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Войти</title>
+    <title>Регистрация</title>
 </head>
 <body>
 
@@ -13,13 +13,12 @@
 {% endif %}
 
 <form method="post">
-    <h1>Войти</h1>
+    <h1>Регистрация</h1>
     {% csrf_token %}
     <p>Имя пользователя: <input required type="text" name="username"></p>
-    <p>Пароль: <input required type="password" name="password"></p>
-    <p><input type="submit" value="Войти"></p>
+    <p>Пароль: <input required type="password" name="password1"></p>
+    <p>Повторить пароль: <input required type="password" name="password2"></p>
+    <p><input type="submit"></p>
 </form>
-
-<a href="/sign_up">Нет аккаунта?</a>
 </body>
 </html>

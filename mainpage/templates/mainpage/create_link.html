@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Создать ссылку</title>
+</head>
+<body>
+
+    {% if error != None %}
+    <script>
+       alert('{{ error }}');
+    </script>
+    {% endif %}
+
+    <h1>Создать ссылку</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="link">
+        <input type="submit" value="Создать ссылку">
+    </form>
+</body>
+</html>
